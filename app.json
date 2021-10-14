@@ -4,7 +4,7 @@
     "owner": "stylebyjmsa",
     "slug": "sbjmfootwear",
     "privacy": "public",
-    "description": "Style by JM Footwear is an American brand based in San Antonio, Texas. SBJM puts a modern twist on classic silhouettes to outfit those who think differently and are confident in doing so. \n\nTo wear SBJM is to celebrate those who are forever pursuing their wildest dreams yet never forget the friend's families and communities who make these dreams possible.\n\n All products are made in Almansa, Spain.",
+    "description": "Style by JM Footwear is an American brand based in San Antonio, Texas. SBJM puts a modern twist on classic silhouettes to outfit those who think differently and are confident in doing so. To wear SBJM is to celebrate those who are forever pursuing their wildest dreams yet never forget the friend's families and communities who make these dreams possible. All products are made in Almansa, Spain.",
     "platforms": [
       "ios",
       "android",
@@ -31,7 +31,8 @@
     },
     "android": {
       "package": "com.jonmichaelnarvaez.sbjmfootwear",
-      "versionCode": "1.0.0"
+      "versionCode": 1
+      
     },
     "androidStatusBar": {
       "backgroundColor": "#a9a9a9"
