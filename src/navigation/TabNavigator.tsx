@@ -71,7 +71,7 @@ export default function TabNavigator() {
               <TabLabel
                 focused={focused}
                 color={color}
-                label={t('My Profile')}
+                label={t('My Account')}
               />
             ),
             tabBarIcon: ({ color }) => (

@@ -51,7 +51,7 @@ export default function ProfileScene() {
           navigate('EditProfile', { customerAccessToken: authToken })
         }
       >
-        <Avatar firstName={firstName} lastName={lastName} size={84} />
+        <Avatar firstName={firstName} lastName={lastName} size={80} />
         <View style={styles.profile}>
           <Text style={styles.nameTextStyle}>
             {firstName} {lastName}

@@ -60,7 +60,7 @@ function HeaderIconButton(props: HeaderIconButtonProps) {
     <IconButton
       icon={icon}
       onPress={onPress}
-      color={COLORS.primaryColor}
+      color={COLORS.inactive}
       style={styles.headerButton}
     />
   );
@@ -94,8 +94,8 @@ export default function StackNavigator() {
             return {
               title:
                 authToken && userData?.authenticatedUser.firstName
-                  ? `${t('Hello')}, ${userData.authenticatedUser.firstName}`
-                  : t('Hello'),
+                  ? `${t('Hey')}, ${userData.authenticatedUser.firstName}`
+                  : t('Hey'),
               headerLeft: () => <CurrencyPicker />,
               headerRight: () => (
                 <HeaderIconButton

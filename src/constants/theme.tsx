@@ -67,7 +67,7 @@ export const headerOptions: StackNavigationOptions = {
   headerLeft: ({ onPress }) => (
     <IconButton
       icon="chevron-left"
-      color={COLORS.primaryColor}
+      color={COLORS.red}
       size={24}
       onPress={onPress}
     />
@@ -75,7 +75,7 @@ export const headerOptions: StackNavigationOptions = {
 };
 
 export const tabBarOptions: BottomTabBarOptions = {
-  activeTintColor: COLORS.primaryColor,
+  activeTintColor: COLORS.red,
   inactiveTintColor: COLORS.inactive,
   labelPosition: 'below-icon',
   labelStyle: {

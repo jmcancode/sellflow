@@ -87,7 +87,7 @@ export default function HomeScene() {
           }}
         />
       </View>
-      <Text style={styles.subTitle}>{t('Featured Products')}</Text>
+      <Text style={styles.subTitle}>{t('New in the Shop')}</Text>
     </View>
   );
 
@@ -100,7 +100,7 @@ export default function HomeScene() {
         <View style={styles.searchInputContainer}>
           <SearchInput
             pointerEvents="none"
-            placeholder={t('Search')}
+            placeholder={t('Boots, Slipper, Bag...')}
             editable={false}
             style={styles.searchInput}
           />

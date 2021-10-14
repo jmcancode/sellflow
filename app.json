@@ -1,8 +1,10 @@
 {
   "expo": {
-    "name": "Sell Flow",
-    "slug": "sellflow",
+    "name": "SBJM Footwear",
+    "owner": "stylebyjmsa",
+    "slug": "sbjmfootwear",
     "privacy": "public",
+    "description": "Style by JM Footwear is an American brand based in San Antonio, Texas. SBJM puts a modern twist on classic silhouettes to outfit those who think differently and are confident in doing so. \n\nTo wear SBJM is to celebrate those who are forever pursuing their wildest dreams yet never forget the friend's families and communities who make these dreams possible.\n\n All products are made in Almansa, Spain.",
     "platforms": [
       "ios",
       "android",
@@ -14,7 +16,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#c60000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,7 +25,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jonmichaelnarvaez.sbjmfootwear",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.jonmichaelnarvaez.sbjmfootwear",
+      "versionCode": "1.0.0"
     },
     "androidStatusBar": {
       "backgroundColor": "#a9a9a9"
