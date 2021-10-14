@@ -30,7 +30,6 @@
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "com.jonmichaelnarvaez.sbjmfootwear",
       "versionCode": 1
       
     },
