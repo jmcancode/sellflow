@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/16.10.0/bin/node /Users/jm/.yarn/bin/yarn.js install
+  /usr/local/Cellar/node/16.10.0/bin/node /Users/jm/.yarn/bin/yarn.js --reset-cache
 
 PATH: 
   /Users/jm/.yarn/bin:/Users/jm/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/jm/.yarn/bin:/Users/jm/.config/yarn/global/node_modules/.bin:/Users/jm/.rover/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/Users/jm/SourceCode/sellflow/node_modules/.bin/babylon'
+  Error: EACCES: permission denied, unlink '/Users/jm/SourceCode/sellflow/node_modules/.bin/acorn'
 
 npm manifest: 
   {
