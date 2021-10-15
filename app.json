@@ -30,8 +30,8 @@
       "buildNumber": "1.0.0"
     },
     "android": {
-      "versionCode": 1
-      
+      "versionCode": 1,
+      "package": "com.jonmichaelnarvaez.sbjmfootwear"
     },
     "androidStatusBar": {
       "backgroundColor": "#a9a9a9"
