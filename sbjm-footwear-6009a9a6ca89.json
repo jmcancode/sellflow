@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sbjm-footwear",
+  "private_key_id": "6009a9a6ca8965fd7f0fc3f7e4fa8af9c067d7a1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCZ1EM7wpJwKnb0\nHcruBpR9z6ezK6UarehEBSTMxAkMkZOGG3+HmmYyfuoscMYGjGwxJHJxSlnX3lfC\nszq74FBruBK5dezDzoJHWZwuQuiT2tGXFI+++y7wGcSP4plJq7QZQ92+hPXID+YS\noB7g+9IYQzJG9q8Ew1NJbUpCt8S8B7Z5SvIdKw+ohaaS+pKwxUyxsHmLUAOeU6U8\nrgjD8MLnPspzDkCrDw8UDvghXIjPihHy9o1/2QJtzs7dyIZjTtttXVBdfO56x1NL\nzEFAUgT2Kw3VptxJi1R6z1UvJKXR61U8GtsceogunS/Li2g6CeZCHlb3T1igUnAR\nmXhl9AYlAgMBAAECggEAEnss+gYIqo8qLBlUOGqeoSA3SVBfYqgtdSvvsuYuds3F\nR+G6iE56zsBECW4hwcb8d0mmB4m454rKnRVZY28HWm8KrjDGbvPlilrwEk1u5yyX\n7QBxu1ku13Z7u2msTuyLvlP9VRa2TKs+/KfeGIZImdT2OmOyvUNrmIZtMJIm1wwf\ntm1trGaJIQlrkuCXsv3bP8vYG5zk51kFmHpaaayKW+KFF/k1r/M5JWz+z7mjnTOw\n8/E+eICRpBXG8MCUuFVys4c3ubK8wMDna/lCQ3HKI+JVxNIEydxZHk6er+Q0JHEe\nPvlLOWNAO9WjpHRfO+/yXabWR4CmwnIna8SCoD29VQKBgQDUSqImqcuFCQgK6gjE\npZS6ONsHO7EYezI4k68dZD6tvvrSGgS4KH2HpBQ6R8HZfmzBEC+SEnu6awcnk8fS\n6910DS7RkpQQFa2oOoLgQQ7QepD3JSVzilzAzipwnoq7ncp8IVLTepfJ0UQ9Qrce\nnmn40V3F1ZqtzwBaHme3fZZ8XwKBgQC5gDhcJuJLGEVk5csgrIOi2/bXSGylkoCa\nni5qDl7Fc/i5T1PZK7IKE7ZpjT9+ylCQHV71TR7fXIDe8hoZsQ0kXcR18NwFp7tB\nHDXwYVUJL36BwE2Yb+YdrDKLEjxiKECftF4/DnROyVx50eLwhZitkIht5dF3NG9t\nk4U2rfAL+wKBgBI5XfYnuVrwTYpyUNJgzIW3/8V9MFTDrqoAs5W4V1EfBfUnWqRc\nhXoxcbMXGeML4VYph4vonkqAiZqyKwNGUDp4Lz66cI947PF2JGoP66+l9e/hdneW\ntyOuDyKf2ZUFlK5XRf71lTY0CsGfiozMWJiNkJk9Hwwwqv0RgyHTXCnNAoGAOzmQ\nxPs1LLynCzvCyr/Jl2mbOcjJx2Mq5DK0pu/HmksYkjGdl6y3vzfj+Xc7WoPFjP2T\nn8XroWyrSIMLikBY7c9yNiWcWcHfqz4SipjIyZH8VfjLzWuMkNS1nmlIFh6740F3\nBbLbt3vappo4VoqQ4HlQ1aWWZvS6zsVWtsp55ZkCgYEAsT/QsaUWGevycv7IvSOD\n19+RJUYlFo9WFCKsfnKoUSd5FMUwFWD5ER4vxvr1rjCaAiIp1TfEEAzA+BirsADS\nkQ6sc29caTfhQDFnrjdaL8/BWMhswL1diXPkHHCrpymJaUagsygynC5voK4xfeA9\nHfh25XUuwzrBG40GqYIT5zs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "com-jonmichaelnarvaez-sbjmfoot@sbjm-footwear.iam.gserviceaccount.com",
+  "client_id": "117614612345892610261",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/com-jonmichaelnarvaez-sbjmfoot%40sbjm-footwear.iam.gserviceaccount.com"
+}
