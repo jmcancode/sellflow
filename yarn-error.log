@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/16.10.0/bin/node /Users/jm/.yarn/bin/yarnpkg install
+  /usr/local/Cellar/node/16.10.0/bin/node /Users/jm/.yarn/bin/yarn.js install
 
 PATH: 
   /Users/jm/.yarn/bin:/Users/jm/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/jm/.yarn/bin:/Users/jm/.config/yarn/global/node_modules/.bin:/Users/jm/.rover/bin
@@ -38,7 +38,7 @@ npm manifest:
       "apollo:typegen-server": "apollo client:codegen --target=typescript --excludes=src/graphql/client/*.* --localSchemaFile=src/graphql/schema.json --tagName=gql --outputFlat src/generated/server",
       "apollo:typegen-client": "apollo client:codegen --target=typescript --includes=src/graphql/client/*.ts --localSchemaFile=src/graphql/client/local-schema.graphql --tagName=gql --outputFlat src/generated/client",
       "encrypt-env": "openssl enc -aes-256-cbc -md md5 -salt -in ./.env.json -out ./.env.enc -k",
-      "decrypt-env": "openssl enc -aes-256-cbc -md md5 -d -in ./.env.enc -out ./.env.json -k"
+      "decrypt-env": "openssl enc -aes-256-cbc -md md5 -d -in ./.env.enc -outnclear ./.env.json -k"
     },
     "dependencies": {
       "@apollo/react-hooks": "^3.1.3",
