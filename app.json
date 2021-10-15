@@ -1,40 +1,36 @@
 {
-  "expo": {
-    "name": "SBJM Footwear",
-    "owner": "stylebyjmsa",
-    "slug": "sbjmfootwear",
-    "privacy": "public",
-    "description": "Style by JM Footwear is an American brand based in San Antonio, Texas. SBJM puts a modern twist on classic silhouettes to outfit those who think differently and are confident in doing so. To wear SBJM is to celebrate those who are forever pursuing their wildest dreams yet never forget the friend's families and communities who make these dreams possible. All products are made in Almansa, Spain.",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#c60000"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.jonmichaelnarvaez.sbjmfootwear",
-      "buildNumber": "1.0.0"
-    },
-    "android": {
-      "versionCode": 1,
-      "package": "com.jonmichaelnarvaez.sbjmfootwear"
-    },
-    "androidStatusBar": {
-      "backgroundColor": "#a9a9a9"
+    "expo": {
+        "name": "SBJM Footwear",
+        "owner": "stylebyjmsa",
+        "slug": "sbjmfootwear",
+        "privacy": "public",
+        "description": "Style by JM Footwear is an American brand based in San Antonio, Texas. SBJM puts a modern twist on classic silhouettes to outfit those who think differently and are confident in doing so. To wear SBJM is to celebrate those who are forever pursuing their wildest dreams yet never forget the friend's families and communities who make these dreams possible. All products are made in Almansa, Spain.",
+        "platforms": [
+            "ios", "android", "web"
+        ],
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#c60000"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.jonmichaelnarvaez.sbjmfootwear",
+            "buildNumber": "1.0.0"
+        },
+        "android": {
+            "versionCode": 1,
+            "package": "com.sbjmfootwear"
+        },
+        "androidStatusBar": {
+            "backgroundColor": "#a9a9a9"
+        }
     }
-  }
 }
