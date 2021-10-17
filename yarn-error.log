@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/Cellar/node/16.10.0/bin/node /Users/jm/.yarn/bin/yarn.js --reset-cache
+  /usr/local/Cellar/node/16.10.0/bin/node /Users/jm/.yarn/bin/yarn.js
 
 PATH: 
-  /Users/jm/.yarn/bin:/Users/jm/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/jm/.yarn/bin:/Users/jm/.config/yarn/global/node_modules/.bin:/Users/jm/.rover/bin
+  /Users/jm/.yarn/bin:/Users/jm/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/jm/.rover/bin
 
 Yarn version: 
   1.21.1

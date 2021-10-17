@@ -28,7 +28,8 @@ coverage/
 # OSX
 #
 .DS_Store
-
+credentials.json
+android/keystores/release.keystore
 # Xcode
 #
 build/
