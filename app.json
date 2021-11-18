@@ -10,7 +10,7 @@
       "android",
       "web"
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -27,10 +27,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.jonmichaelnarvaez.sbjmfootwear",
-      "buildNumber": "1.0.3"
+      "buildNumber": "1.0.4"
     },
     "android": {
-      "versionCode": 1,
+      "versionCode": 2,
       "package": "com.jonmichaelnarvaez.sbjmfootwear"
     },
     "androidStatusBar": {
