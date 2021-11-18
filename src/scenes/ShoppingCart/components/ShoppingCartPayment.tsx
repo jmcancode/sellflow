@@ -49,7 +49,7 @@ export default function ShoppingCartPayment(props: Props) {
   return (
     <>
       <View style={styles.voucherCodeContainer}>
-        <Text style={styles.opacity}>{t('Voucher code or giftcard')}</Text>
+        <Text style={styles.opacity}>{t('Coupon code or giftcard')}</Text>
         <View style={styles.voucherInputButtonContainer}>
           <View style={styles.textInputContainer}>
             <TextInput
@@ -64,7 +64,7 @@ export default function ShoppingCartPayment(props: Props) {
               style={outlinedTextInput}
               errorMessage={
                 !isVoucherCodeValid
-                  ? t('Voucher code does not exist')
+                  ? t('Coupon code does not exist')
                   : undefined
               }
               errorMessageStyle={styles.errorMessage}
