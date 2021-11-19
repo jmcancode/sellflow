@@ -26,7 +26,6 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.jonmichaelnarvaez.sbjmfootwear",
       "buildNumber": "1.0.4"
     },
     "android": {
