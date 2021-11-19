@@ -3,7 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { IconButton, Text } from 'exoflex';
 
 import { FONT_SIZE } from '../constants/fonts';
-import { tabBarOptions } from '../constants/theme';
+// import { tabBarOptions } from '../constants/theme';
 import { TabParamList } from '../types/Navigation';
 import { HomeScene, WishlistScene, ProfileScene, LockScene } from '../scenes';
 import { useAuth } from '../helpers/useAuth';
@@ -31,7 +31,25 @@ function TabLabel(props: LabelProps) {
 export default function TabNavigator() {
   let { authToken } = useAuth();
   return (
-    <Tab.Navigator initialRouteName="HomeTab" tabBarOptions={tabBarOptions}>
+    <Tab.Navigator initialRouteName="HomeTab" screenOptions={{
+      "tabBarActiveTintColor": "#C60000",
+      "tabBarInactiveTintColor": "#AAAAAA",
+      "tabBarLabelStyle": {
+        "fontFamily": "SourceSansPro-Regular"
+      },
+      "tabBarItemStyle": {
+        "flex": 1,
+        "marginTop": 8,
+        "paddingVertical": 6
+      },
+      "tabBarLabelPosition": "below-icon",
+      "tabBarStyle": [
+        {
+          "display": "flex"
+        },
+        null
+      ]
+    }}>
       <Tab.Screen
         name="HomeTab"
         component={HomeScene}

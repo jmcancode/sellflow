@@ -82,7 +82,7 @@ export default function StackNavigator() {
   return (
     <Stack.Navigator
       screenOptions={headerOptions}
-      headerMode="screen"
+      // headerMode="screen"
       initialRouteName={'Home'}
     >
       <Stack.Screen
