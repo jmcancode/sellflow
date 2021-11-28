@@ -26,11 +26,12 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "1.0.4"
+      "buildNumber": "1.0.4",
+      "bundleIdentifier": "com.stylebyjmsa.sbjmfootwear"
     },
     "android": {
-      "versionCode": 2
-      
+      "versionCode": 2,
+      "package": "com.stylebyjmsa.sbjmfootwear"
     },
     "androidStatusBar": {
       "backgroundColor": "#a9a9a9"
