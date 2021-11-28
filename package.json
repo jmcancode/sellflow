@@ -39,7 +39,7 @@
     "apollo-link-context": "^1.0.19",
     "apollo-link-http": "^1.5.16",
     "card-validator": "^6.2.0",
-    "eas-cli": "0.37.0",
+    "eas-cli": "0.38.2",
     "exoflex": "^3.4.4",
     "expo": "^43.0.3",
     "expo-cli": "^4.13.0",
