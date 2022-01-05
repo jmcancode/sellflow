@@ -233,7 +233,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 16,
-    paddingBottom: 24,
+    paddingBottom: 25,
     justifyContent: 'space-between',
   },
   forgetPassword: { alignSelf: 'flex-end', marginTop: 24 },

@@ -77,7 +77,7 @@ export default function HomeScene() {
       />
 
       <View>
-        <Text style={styles.subTitle}>{t('Browse By Category')}</Text>
+        <Text style={styles.subTitle}>{t('Shop by category')}</Text>
         <CategoryList
           categories={categories}
           onSelect={(collection) => {
@@ -87,7 +87,7 @@ export default function HomeScene() {
           }}
         />
       </View>
-      <Text style={styles.subTitle}>{t('New in the Shop')}</Text>
+      <Text style={styles.subTitle}>{t('New at SBJM')}</Text>
     </View>
   );
 
@@ -100,7 +100,7 @@ export default function HomeScene() {
         <View style={styles.searchInputContainer}>
           <SearchInput
             pointerEvents="none"
-            placeholder={t('Boots, Slipper, Bag...')}
+            placeholder={t('search by product name or category')}
             editable={false}
             style={styles.searchInput}
           />

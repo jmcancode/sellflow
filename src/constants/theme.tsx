@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleProp, ViewStyle, TextStyle } from 'react-native';
-import { BottomTabBarOptions } from '@react-navigation/bottom-tabs';
+import BottomTabBarOptions  from '@react-navigation/bottom-tabs';
 import { DefaultTheme, Theme, IconButton } from 'exoflex';
 import { StackNavigationOptions } from '@react-navigation/stack';
 

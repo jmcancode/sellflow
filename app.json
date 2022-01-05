@@ -10,7 +10,7 @@
       "android",
       "web"
     ],
-    "version": "1.0.4",
+    "version": "1.0.5",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -26,12 +26,12 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "1.0.4",
-      "bundleIdentifier": "com.stylebyjmsa.sbjmfootwear"
+      "buildNumber": "1.0.5",
+      "bundleIdentifier": "com.jonmichaelnarvaez.sbjmfootwear"
     },
     "android": {
       "versionCode": 2,
-      "package": "com.stylebyjmsa.sbjmfootwear"
+      "package": "com.jonmichaelnarvaez.sbjmfootwear"
     },
     "androidStatusBar": {
       "backgroundColor": "#a9a9a9"

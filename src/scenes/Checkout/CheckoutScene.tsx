@@ -188,6 +188,7 @@ export default function CheckoutScene() {
               onSelectAddress={onSelect}
               onEndReached={onEndReached}
               hasMore={hasMore}
+            
             />
           )}
           <Button
@@ -197,6 +198,7 @@ export default function CheckoutScene() {
             icon="plus"
             labelStyle={defaultButtonLabel}
             onPress={addNewAddress}
+          
           >
             {t('Add New Address')}
           </Button>

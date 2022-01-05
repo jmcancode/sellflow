@@ -10,18 +10,19 @@ export const carouselData: Array<CarouselItem> = [
   {
     render: () => (
       <Text weight="bold" style={styles.title}>
-        {t('Made in Spain', 'Designed in San Antonio')}
+        {t('Made in Spain')}
       </Text>
     ),
     image:
-      'https://images.unsplash.com/photo-1451930393367-e1e01fc2bacc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60'
+      'https://images.unsplash.com/photo-1571829604981-ea159f94e5ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVhdGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
+      
   }
 ];
 
 const styles = StyleSheet.create({
   title: {
     marginBottom: 20,
-    color: COLORS.darkWhite,
+    color: COLORS.white,
     fontSize: FONT_SIZE.ohShit,
     textTransform: 'uppercase'
   },

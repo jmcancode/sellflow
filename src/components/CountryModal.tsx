@@ -46,7 +46,8 @@ export default function CountryModal(props: Props) {
   let [countryList, setCountryList] = useState<Array<CountryCode>>([]);
 
   let { data } = useGetShop();
-
+  const shipsToCountries = data.shop.shipsToCountries.filter(x=>Object.keys(COUNTRY_CODE).includes(x))
+  
   useEffect(() => {
     if (data) {
       let countryCodes: Array<CountryCode> = [];

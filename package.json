@@ -43,6 +43,7 @@
     "exoflex": "^3.4.4",
     "expo": "^43.0.3",
     "expo-cli": "^4.13.0",
+    "expo-dev-client": "^0.8.0",
     "expo-image-picker": "~11.0.3",
     "expo-localization": "~11.0.0",
     "expo-splash-screen": "~0.13.5",
@@ -50,8 +51,8 @@
     "expo-updates": "~0.10.15",
     "graphql": "^14.5.8",
     "graphql-tag": "^2.10.1",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "^16.8.0",
+    "react-dom": "16.13.1",
     "react-native": "0.64.3",
     "react-native-gesture-handler": "~1.10.2",
     "react-native-image-zoom-viewer": "^2.2.27",
@@ -72,8 +73,8 @@
     "@storybook/react-native": "^5.3.0",
     "@types/card-validator": "^4.1.0",
     "@types/jest": "^26.0.20",
-    "@types/react": "~17.0.21",
-    "@types/react-native": "~0.64.12",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "0.60.4",
     "@types/react-native-snap-carousel": "^3.8.5",
     "@types/react-test-renderer": "^16.9.1",
     "apollo": "^2.21.3",
@@ -156,5 +157,5 @@
   "license": "MIT",
   "private": true,
   "name": "sellflow",
-  "version": "1.0.4"
+  "version": "1.0.5"
 }
