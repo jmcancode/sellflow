@@ -30,7 +30,7 @@
       "bundleIdentifier": "com.jonmichaelnarvaez.sbjmfootwear"
     },
     "android": {
-      "versionCode": 2,
+      "versionCode": 3,
       "package": "com.jonmichaelnarvaez.sbjmfootwear"
     },
     "androidStatusBar": {
